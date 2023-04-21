@@ -2,9 +2,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
-import About from './About/page'
-import WorkExperience from './WorkExperience/page'
-import Skills from './Skills/page'
+import About from '../../components/About'
+import WorkExperience from '../../components/WorkExperience'
+import Skills from '../../components/Skills'
 
 const inter = Inter({ subsets: ['latin'] })
 

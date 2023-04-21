@@ -22,7 +22,7 @@ const Header= () => {
             }}
             className="flex flex-row item-center hover:">
                 {/* Social icons */}
-                <SocialIcon url="https://www.linkedin.com/in/shambhav-shandilya-a201431ba/" fgColor="grey" bgColor="transparent" target="blank"  className="my-social-icon hover:scale-125 hover:blue-500 bg-transparent group-hover:bg-orange-500"/>
+                <SocialIcon url="https://www.linkedin.com/in/shambhav-shandilya-a201431ba/" fgColor="grey" bgColor="transparent" target="blank"  className="my-social-icon hover:scale-125  bg-transparent group-hover:bg-orange-500 border border-[#242424] rounded-full hover:border-[#F7AB0A] border-collapse border-spacing-1 border-b-2"/>
 
                 <SocialIcon url="https://github.com/shambhav15" fgColor="grey" bgColor="transparent" target="blank" className="my-social-icon hover:scale-125 hover:blue-500 bg-transparent"  />
 

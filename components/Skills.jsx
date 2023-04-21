@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
-import Skill from '../../../components/Skill'
+import Skill from './Skill'
 
 function page() {
     return (

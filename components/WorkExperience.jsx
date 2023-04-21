@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import {motion } from 'framer-motion'
-import ExperienceCard from '../../../components/ExperienceCard'
+import ExperienceCard from '../components/ExperienceCard'
 function WorkExperience() {
     return (
         <motion.div 
