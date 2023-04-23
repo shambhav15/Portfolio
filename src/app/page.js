@@ -23,13 +23,14 @@ export default function Home() {
           <About />
         </section>
 
+        <section id='Skills' className='snap-center' >
+          <Skills />
+        </section>
+        
         <section id='WorkExperience' className='snap-center' >
           <WorkExperience />
         </section>
 
-        <section id='Skills' className='snap-center' >
-          <Skills />
-        </section>
 
 
       </div>
