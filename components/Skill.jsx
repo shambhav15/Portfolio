@@ -8,7 +8,7 @@ let Props = {
 
 function skill({ directionLeft }) {
     return (
-        <div className='group relative-flex cursor-pointer'>
+        <div className='group flex relative cursor-pointer'>
             <motion.img
                 initial={{
                     x: directionLeft ? -200 : 200,
@@ -17,10 +17,13 @@ function skill({ directionLeft }) {
                 transition={{ duration: 1.5 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 src="https://img.icons8.com/fluency/48/null/node-js.png" alt=""
-                className='object-cover w-20 h-20 xl:w-32 xl:h-32   border border-gray-500 rounded-full filter group-hover:grayscale transition duration-200  easy-in-out '
+
+                className='object-cover w-20 h-20 md:w-28 md:h-28 xl:w-32 xl:h-32   border border-gray-500 rounded-full filter group-hover:grayscale transition duration-300  easy-in-out '
             />
-            <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 easy-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:h-32 xl:w-32 rounded-full z-0'>
+            <div className='absolute opacity-0  transition duration-300 group-hover:opacity-80 group-hover:bg-white h-20 w-20 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+
                 <div className='flex items-center justify-center h-full'>
+
                     <p className='text-3xl font-bold text-black opacity-100' >
                         100%
                     </p>
