@@ -23,7 +23,7 @@ function page() {
                 }}
                 whileInView={{opacity:1, x: 0 }}
                 viewport={{once:true}}
-                // src="new.jpg"
+                src="new.jpg"
                 alt='my pic'
                 height={400} 
                 className=' mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:h-[400px] xl:w-[300px]'
