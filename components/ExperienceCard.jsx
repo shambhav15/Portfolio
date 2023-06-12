@@ -15,7 +15,7 @@ function ExperienceCard() {
              src="h.jpeg" alt="" />
 
              <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>CEO of assguard</h4>
+                <h4 className='text-4xl font-light'>CEO </h4>
                 <p className='font-bold text-2xl mt-1'>unemployed</p>
                 <div className='flex space-x-2 my-2'>
                     <img className='h-7 w-7 rounded-full' src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" alt="" />

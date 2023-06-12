@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 function Projects() {
-    const projects = [1, 2, 3, 4, 5]
+    const projects = [1, 2]
     return (
         <motion.div
             initial={{ opacity: 0 }}

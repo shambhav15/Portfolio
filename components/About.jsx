@@ -23,13 +23,14 @@ function page() {
                 }}
                 whileInView={{opacity:1, x: 0 }}
                 viewport={{once:true}}
-                src="new.jpg"
+                // src="new.jpg"
+                alt='my pic'
                 height={400} 
                 className=' mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:h-[400px] xl:w-[300px]'
             />
             <div className='space-y-5 px-0 md:px-10 '>
                 <h4 className='text-3xl font-semibold py-0'>Here is a <span className='underline decoration-orange-500'>little</span> background</h4>
-                <p className='text-sm inline-block'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, voluptatum unde? Reiciendis consequatur sint id, distinctio omnis hic minus animi quos a, impedit iusto saepe inventore fuga quasi tempora rerum alias eaque cum maxime commodi libero exercitationem non laboriosam. Ex aperiam veniam est itaque corrupti voluptatibus illum non, ducimus tempora debitis molestiae natus animi quibusdam possimus ipsam hic beatae. Dolorem.</p>
+                <p className='text-sm inline-block'>"Hello there! I'm Shambhav Shandilya, a passionate student and web developer. With a keen interest in creating captivating and functional websites, I've embarked on a journey to master the art of web development. I'm constantly driven by a desire to learn and stay up-to-date with the latest industry trends, ensuring that I can deliver cutting-edge solutions to my clients. Whether it's crafting beautiful user interfaces or writing clean and efficient code, I'm dedicated to creating seamless online experiences. I believe that a website should not only look great but also provide value and accessibility to its users. I strive to achieve this balance in every project I undertake. Join me as we embark on a digital adventure together!"</p>
             </div>
         </motion.div>
     );

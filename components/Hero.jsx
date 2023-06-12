@@ -24,21 +24,21 @@ function Hero() {
                     <Cursor cursorColor="orange" />
                 </h1>
                 <div className='pt-5'>
-                    <Link href="#about">
+                    <a href="#About">
                         <button className='heroButton'>About</button>
-                    </Link>
+                    </a>
 
-                    <Link href="#Skills">
+                    <a href="#Skills">
                         <button className='heroButton'>Skills</button>
-                    </Link>
+                    </a>
 
-                    <Link href="#Projects">
+                    <a href="#Projects">
                         <button className='heroButton'>Projects</button>
-                    </Link>
+                    </a>
 
-                    <Link href="#WorkExperience">
+                    <a href="#WorkExperience">
                         <button className='heroButton'>Experience</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

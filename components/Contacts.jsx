@@ -32,7 +32,7 @@ function Contacts() {
 
                     <div className=' cursor-pointer flex items-center space-x-5 justify-center py-2'>
                         <EnvelopeIcon className=' text-orange-400 h-8 w-8 animate-pulse' />
-                        <p className='text-2xl'>shambhavse15@gmail.com</p>
+                        <p className='text-2xl'><a href='mailto:shambhavse15@gmail.com' target='blank'>shambhavse15@gmail.com</a></p>
                     </div>
                 </div>
 
