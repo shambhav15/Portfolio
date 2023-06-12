@@ -20,11 +20,6 @@ function Contacts() {
                 </h4>
 
                 <div className=''>
-                    <div className='flex items-center space-x-5 justify-center'>
-                        <PhoneIcon className='text-orange-400 h-8 w-8 animate-pulse' />
-                        <p className='text-2xl'>+91-8544322377</p>
-                    </div>
-
                     <div className='flex items-center space-x-5 justify-center py-2'>
                         <MapPinIcon className='text-orange-400 h-8 w-8 animate-pulse' />
                         <p className='text-2xl'>Kiit college</p>
